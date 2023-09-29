@@ -1,0 +1,11 @@
+h1 {
+  font-family: "Lobster", cursive;
+  color: white;
+  -webkit-text-stroke-width: 0.01px;
+  -webkit-text-stroke-color: #f1048d;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 144px;
+  text-shadow: 6px 6px 0px #f1048d;
+}
