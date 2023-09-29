@@ -9,3 +9,8 @@ h1 {
   line-height: 144px;
   text-shadow: 6px 6px 0px #f1048d;
 }
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  color: #f1048d;
+}
