@@ -9,7 +9,7 @@ body {
 }
 .container {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 50px auto;
 }
 .grid {
   display: grid;
@@ -22,10 +22,33 @@ body {
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
 }
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.text-center {
+  text-align: center;
+}
+.btn {
+  display: block;
+  color: white;
+  background-color: #f1048d;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  text-decoration: none;
+  margin: 40px 0;
+}
+.btn:hover {
+  transform: scale(1.1);
+}
 
 section {
-  max-width: 1200px;
-  padding: 100px 60px;
+  max-width: 100%;
+  padding: 100px;
   margin: 0 auto;
 }
 header {
@@ -94,6 +117,18 @@ main h3 {
   text-transform: uppercase;
   margin: 0;
 }
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 5px 0;
+}
+main h5 {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0;
+}
 main p {
   font-style: normal;
   font-weight: 400;
@@ -101,6 +136,26 @@ main p {
   line-height: 1.5;
   opacity: 0.7;
 }
+
+section.secondary {
+  background-color: #f9f8f9;
+}
+.card {
+  background-color: white;
+  margin: 30px 0;
+}
+.card-body {
+  padding: 30px;
+}
+.card img {
+  max-width: 100%;
+}
+
+.card p {
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
 footer {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
     url("../images/footer.webp");
